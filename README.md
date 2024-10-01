@@ -63,34 +63,34 @@ P.S.: This is the public key of account that i am using destination address
 on my testing transactions. 
 
 ## Setup Environment
-Bitcoin Multi-Recipient Payment with Message Integration
+Bitcoin Multi-Recipient Payment with Message Integration <br/>
 This project allows users to send Bitcoin payments to multiple recipients while attaching messages to each transaction, built on the Stellar blockchain.
 
-Features
-Send Bitcoin payments to multiple recipients.
-Attach personalized messages to each transaction.
-Easy-to-use interface for managing payments.
+Features<br/>
+Send Bitcoin payments to multiple recipients.<br/>
+Attach personalized messages to each transaction.<br/>
+Easy-to-use interface for managing payments.<br/>
 
-Prerequisites
-Before you begin, ensure you have met the following requirements:
+Prerequisites<br/>
+Before you begin, ensure you have met the following requirements:<br/>
 
-Python language installed.
-Stellar SDK installed.
-A Stellar wallet account (you can use the Stellar Laboratory, Testnet, expert etc.).
-Git installed on your machine.
+Python language installed.<br/>
+Stellar SDK installed.<br/>
+A Stellar wallet account (you can use the Stellar Laboratory, Testnet, expert etc.).<br/>
+Git installed on your machine.<br/>
+<br/>
+Clone the repository:<br/>
 
-Clone the repository:
+git clone https://github.com/TyfnOz/stellar-project.git<br/>
+cd stellar-project<br/>
 
-git clone https://github.com/TyfnOz/stellar-project.git
-cd stellar-project
+Install stellar-sdk for python:<br/>
+pip install --upgrade stellar-sdk<br/>
 
-Install stellar-sdk for python:
-pip install --upgrade stellar-sdk
-
-Run the code:
+Run the code:<br/>
 You can run the code. I wrote some test code for you to see results.
 I gave destination address above. I am using this account as destination on my test transactions.
-To see destination account: https://stellar.expert/explorer/testnet/account/GACIHUBRFXJDETZ32ZQYTAF44TZDQW4YYPPHNJZFX7URTYGM7LA7MPSF
+To see destination account: https://stellar.expert/explorer/testnet/account/GACIHUBRFXJDETZ32ZQYTAF44TZDQW4YYPPHNJZFX7URTYGM7LA7MPSF<br/>
 To see source accounts, Ctrl+LeftClick on the link printed on console with under the title "Account Details".
 So you will be able to see source account on testing transactions.
 And the tests for getting balance or transaction history will be printed on the console
