@@ -26,11 +26,13 @@ Define Smart Contract Structure:<br/>
 Create a smart contract on the Stellar blockchain that supports Bitcoin token payments.<br/>
 
 Key variables:<br/>
-sender, recipients[], amounts[], messages[], transactionID<br/>
+source, transfer_data[], accountId, <br/>
+
 Functions:<br/>
-sendPayment() to process payments to multiple recipients.<br/>
-addMessage() to attach a message to each transaction.<br/>
-validateTransaction() to ensure sufficient funds and valid inputs.<br/>
+get_transaction_history() to list previous payments and transactions with details.<br/>
+get_balance() to learn current balance of user.<br/>
+single_transfer() to make one transaction to one recipient.<br/>
+multi_transfer() to make multiple transactions to recipients. <br/>
 
 Multi-Recipient Payment Functionality:<br/>
 
