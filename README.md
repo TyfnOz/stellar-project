@@ -19,39 +19,38 @@ With the ability to make multiple transactions in one go, our project will simpl
 We believe this will create a big impact by improving both the utility and security of everyday digital transactions.
 
 ## Project Roadmap / Future Plans
-Software Development Plan:
+Software Development Plan:<br/>
+Define Smart Contract Structure:<br/>
 
-Define Smart Contract Structure:
+Create a smart contract on the Stellar blockchain that supports Bitcoin token payments.<br/>
+Key variables:<br/>
+sender, recipients[], amounts[], messages[], transactionID<br/>
+Functions:<br/>
+sendPayment() to process payments to multiple recipients.<br/>
+addMessage() to attach a message to each transaction.<br/>
+validateTransaction() to ensure sufficient funds and valid inputs.<br/>
+Multi-Recipient Payment Functionality:<br/>
 
-Create a smart contract on the Stellar blockchain that supports Bitcoin token payments.
-Key variables:
-sender, recipients[], amounts[], messages[], transactionID
-Functions:
-sendPayment() to process payments to multiple recipients.
-addMessage() to attach a message to each transaction.
-validateTransaction() to ensure sufficient funds and valid inputs.
-Multi-Recipient Payment Functionality:
+Develop logic to handle payments to multiple recipients in a single transaction.<br/>
+Ensure proper fund allocation using amounts[] and update balances.<br/>
+Message Attachment Feature:<br/>
 
-Develop logic to handle payments to multiple recipients in a single transaction.
-Ensure proper fund allocation using amounts[] and update balances.
-Message Attachment Feature:
+Implement the addMessage() function to allow users to add text to each payment.<br/>
+Integrate the message data with the transaction for blockchain verification.<br/>
+Security & Optimization:<br/>
 
-Implement the addMessage() function to allow users to add text to each payment.
-Integrate the message data with the transaction for blockchain verification.
-Security & Optimization:
+Add validation functions to check recipient addresses, transaction limits, and prevent unauthorized access.<br/>
+Optimize gas fees and performance for multi-recipient payments.<br/>
+Front-End Development:<br/>
 
-Add validation functions to check recipient addresses, transaction limits, and prevent unauthorized access.
-Optimize gas fees and performance for multi-recipient payments.
-Front-End Development:
+Design a user-friendly interface allowing users to input recipient addresses, amounts, and messages.<br/>
+Display transaction history, messages, and payment status.<br/>
+Integrate wallet connection for Bitcoin token transfers.<br/>
+Deployment & Testing:<br/>
 
-Design a user-friendly interface allowing users to input recipient addresses, amounts, and messages.
-Display transaction history, messages, and payment status.
-Integrate wallet connection for Bitcoin token transfers.
-Deployment & Testing:
-
-Deploy the smart contract to Stellar’s testnet for rigorous testing.
-Perform front-end testing to ensure all features work seamlessly.
-Launch on the mainnet after final testing.
+Deploy the smart contract to Stellar’s testnet for rigorous testing.<br/>
+Perform front-end testing to ensure all features work seamlessly.<br/>
+Launch on the mainnet after final testing.<br/>
 
 ## Programming Language
 Python
