@@ -1,5 +1,5 @@
 ## PayChat
-
+![Team Logo](https://github.com/TyfnOz/stellar-project/blob/master/logo.png)
 ## About Me
 Tayfun Özdemir is a Computer Engineering student at Ankara Yıldırım Beyazıt University. 
 He enjoys reading, playing video games, chess, and coding in his free time. 
