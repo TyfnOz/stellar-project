@@ -188,9 +188,9 @@ if __name__ == "__main__":
     balance = get_balance(source_public)
     print(f"Balance before transfers: {balance}")
 
-    first_transfer = { "dest": create_account().public_key, "message": "stellar", "amount": 1.23}
-    second_transfer = { "dest": create_account().public_key, "message": "soroban", "amount": 4.56}
-    third_transfer  = { "dest": create_account().public_key, "message": "risein", "amount": 7.89}
+    first_transfer = { "dest": "GACIHUBRFXJDETZ32ZQYTAF44TZDQW4YYPPHNJZFX7URTYGM7LA7MPSF", "message": "stellar", "amount": 1.23}
+    second_transfer = { "dest": "GACIHUBRFXJDETZ32ZQYTAF44TZDQW4YYPPHNJZFX7URTYGM7LA7MPSF", "message": "soroban", "amount": 4.56}
+    third_transfer  = { "dest": "GACIHUBRFXJDETZ32ZQYTAF44TZDQW4YYPPHNJZFX7URTYGM7LA7MPSF", "message": "risein", "amount": 7.89}
     
     multi_transfer_data = [first_transfer, second_transfer, third_transfer]
 
