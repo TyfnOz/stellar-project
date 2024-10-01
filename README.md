@@ -20,32 +20,39 @@ We believe this will create a big impact by improving both the utility and secur
 
 ## Project Roadmap / Future Plans
 Software Development Plan:<br/>
+
 Define Smart Contract Structure:<br/>
 
 Create a smart contract on the Stellar blockchain that supports Bitcoin token payments.<br/>
+
 Key variables:<br/>
 sender, recipients[], amounts[], messages[], transactionID<br/>
 Functions:<br/>
 sendPayment() to process payments to multiple recipients.<br/>
 addMessage() to attach a message to each transaction.<br/>
 validateTransaction() to ensure sufficient funds and valid inputs.<br/>
+
 Multi-Recipient Payment Functionality:<br/>
 
 Develop logic to handle payments to multiple recipients in a single transaction.<br/>
 Ensure proper fund allocation using amounts[] and update balances.<br/>
+
 Message Attachment Feature:<br/>
 
 Implement the addMessage() function to allow users to add text to each payment.<br/>
 Integrate the message data with the transaction for blockchain verification.<br/>
+
 Security & Optimization:<br/>
 
 Add validation functions to check recipient addresses, transaction limits, and prevent unauthorized access.<br/>
 Optimize gas fees and performance for multi-recipient payments.<br/>
+
 Front-End Development:<br/>
 
 Design a user-friendly interface allowing users to input recipient addresses, amounts, and messages.<br/>
 Display transaction history, messages, and payment status.<br/>
 Integrate wallet connection for Bitcoin token transfers.<br/>
+
 Deployment & Testing:<br/>
 
 Deploy the smart contract to Stellar’s testnet for rigorous testing.<br/>
